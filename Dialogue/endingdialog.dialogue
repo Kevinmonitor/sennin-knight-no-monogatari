@@ -1,0 +1,13 @@
+~ start
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("blush")]Aye, here it is!
+Sailor Knight:	A boat to board and set sail, leave this run-down place!
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("happy")]Maybe I can start talking like a pirate, haha...
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("annoyed")]...
+Sailor Knight: ...I can... finally set sail. 
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("pensive")]Away from the kingdom... from my duties... to see the sea and sail like I had always dreamed.
+Sailor Knight: Thank you, my liege,
+Sailor Knight: Thank you, my comrades,
+Sailor Knight: Thank you, to all the princes and princesses who believed in me...
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("neutral")]...but it be time to be a sailor knight,
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("happy")]an' see the seven seas.
+=> END

@@ -1,0 +1,9 @@
+~ start
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("surprise")]What the heck-
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("neutral")]I felt like I woke up from a strange dream, with a strange voice… 
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("surprise")]…Wait, wait a minute. This place… 
+Sailor Knight: That scene, outside the window…!
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("happy")]I did it! The teleportation spell worked!
+Sailor Knight: I made it to the ocean!
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("blush")]…Well, almost! I just need to figure out how to get out of this strange place…
+=> END

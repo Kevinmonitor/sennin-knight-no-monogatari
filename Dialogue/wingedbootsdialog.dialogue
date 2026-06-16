@@ -1,0 +1,6 @@
+~ start
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("blush")]A pair of magic boots! The witch told me about this!
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("neutral")]With this, I'll be able to dash midair. I think the incantation was called, "X Key And A Direction Of Your Choice".
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("sweaty")]Oof... these boots make me feel very floaty.
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("sweaty")]If I'm not careful, I'll be jumping absurdly high and hitting my head!
+=> END

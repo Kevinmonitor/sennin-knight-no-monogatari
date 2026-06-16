@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bpm5ochsfufx"
+path="res://.godot/imported/wingedbootsdialog.dialogue-5312419b89eebd055aa3270e6d931a98.tres"
+
+[deps]
+
+source_file="res://Dialogue/wingedbootsdialog.dialogue"
+dest_files=["res://.godot/imported/wingedbootsdialog.dialogue-5312419b89eebd055aa3270e6d931a98.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bloos5idgnn1s"
+path="res://.godot/imported/room4dialog.dialogue-90a95233d264586cbccb8754534027ed.tres"
+
+[deps]
+
+source_file="res://Dialogue/room4dialog.dialogue"
+dest_files=["res://.godot/imported/room4dialog.dialogue-90a95233d264586cbccb8754534027ed.tres"]
+
+[params]
+
+defaults=true

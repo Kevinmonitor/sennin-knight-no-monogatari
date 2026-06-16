@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ddcgkya0k6x7m"]
+
+[ext_resource type="Script" uid="uid://jkg5qd3reg46" path="res://Dialogue/single_dialogue_scene.gd" id="1_w3nny"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w3nny"]
+size = Vector2(20, 12.249359)
+
+[node name="SingleDialogueScene" type="Area2D" unique_id=1542574569]
+z_index = 5
+collision_layer = 128
+collision_mask = 2
+script = ExtResource("1_w3nny")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1861660611]
+shape = SubResource("RectangleShape2D_w3nny")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

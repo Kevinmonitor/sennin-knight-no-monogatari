@@ -1,0 +1,9 @@
+~ start
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("happy")]A ladle with a lot of magical power in it... It's almost like some sort of sword?
+Sailor Knight: Definitely better than this brittle sword I have.
+Sailor Knight: I should be able to take care of those floating bats with this.
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("neutral")]Just focus and think to myself, "The 'C' Is The Key".
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("annoyed")]Huh? There's a little label here...
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("neutral")]"WARNING: THE MAGICAL POWER MAY RESULT IN RIDICULOUS EXPLOSIONS WHEN USED"
+Sailor Knight: [do! MainGame.get_singleton().playerEmotion("sweaty")]...Right...
+=> END

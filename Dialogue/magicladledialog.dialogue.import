@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b1tg2pc74shci"
+path="res://.godot/imported/magicladledialog.dialogue-bf37b430b005ed95d98e0465008a9c1f.tres"
+
+[deps]
+
+source_file="res://Dialogue/magicladledialog.dialogue"
+dest_files=["res://.godot/imported/magicladledialog.dialogue-bf37b430b005ed95d98e0465008a9c1f.tres"]
+
+[params]
+
+defaults=true

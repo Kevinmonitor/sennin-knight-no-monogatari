@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dq6goe58mbwoy"
+path="res://.godot/imported/room5dialog.dialogue-d78ae9088728aaaec652d23e71240641.tres"
+
+[deps]
+
+source_file="res://Dialogue/room5dialog.dialogue"
+dest_files=["res://.godot/imported/room5dialog.dialogue-d78ae9088728aaaec652d23e71240641.tres"]
+
+[params]
+
+defaults=true

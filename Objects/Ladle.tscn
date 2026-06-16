@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bsbd714rpstiq"]
+
+[ext_resource type="Script" uid="uid://djnxl2cuqbol6" path="res://Objects/ladleObtainScript.gd" id="1_xtq4p"]
+[ext_resource type="Resource" uid="uid://b1tg2pc74shci" path="res://Dialogue/magicladledialog.dialogue" id="2_7x5s0"]
+[ext_resource type="Texture2D" uid="uid://ol4kdae244bq" path="res://Textures/Player/ladle.png" id="2_xtq4p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0e2p4"]
+size = Vector2(52.5, 52.5)
+
+[node name="LadleUpgrade" type="Area2D" unique_id=442877675 node_paths=PackedStringArray("sprite")]
+z_index = 5
+collision_layer = 32
+collision_mask = 2
+script = ExtResource("1_xtq4p")
+dialogueFile = ExtResource("2_7x5s0")
+dialogueID = "GetLadle"
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=12318984]
+texture = ExtResource("2_xtq4p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1749882631]
+shape = SubResource("RectangleShape2D_0e2p4")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

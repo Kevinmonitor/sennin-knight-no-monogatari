@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cwkap7j430gd0"]
+
+[ext_resource type="Script" uid="uid://cp17wkqx0y1oa" path="res://Objects/Checkpoint.gd" id="1_6j4pb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4s2fb"]
+size = Vector2(20, 224)
+
+[node name="Checkpoint" type="Area2D" unique_id=1654680829]
+z_index = 5
+collision_layer = 256
+collision_mask = 2
+script = ExtResource("1_6j4pb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=205214879]
+shape = SubResource("RectangleShape2D_4s2fb")
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=632135305]
+position = Vector2(16, 0)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

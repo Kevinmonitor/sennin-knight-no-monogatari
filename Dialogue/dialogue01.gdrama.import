@@ -1,0 +1,14 @@
+[remap]
+
+importer="gdrama_importer"
+type="Resource"
+uid="uid://cqkwkowwaptou"
+path="res://.godot/imported/dialogue01.gdrama-9b7a96580680f9565ecd1d925b0018cc.tres"
+
+[deps]
+
+source_file="res://Dialogue/dialogue01.gdrama"
+dest_files=["res://.godot/imported/dialogue01.gdrama-9b7a96580680f9565ecd1d925b0018cc.tres"]
+
+[params]
+
