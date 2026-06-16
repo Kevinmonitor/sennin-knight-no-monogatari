@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://nrg14hbcm8e2" path="res://Global/GameInterface.gd" id="2_ilkga"]
 [ext_resource type="PackedScene" uid="uid://cn1hyq7obgxg8" path="res://Global/Player.tscn" id="2_t4kyf"]
 [ext_resource type="AudioStream" uid="uid://bhqpuayy1sfs8" path="res://Sounds/android tears.mp3" id="5_tct1y"]
+[ext_resource type="Script" uid="uid://bkon7e7mb55cu" path="res://addons/audio_manager/players_class/audio_stream_plus_2d.gd" id="6_esjk2"]
 [ext_resource type="Texture2D" uid="uid://b2krtfa1in3tn" path="res://Textures/MVM32Ending.png" id="7_ia7of"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ia7of"]
@@ -228,8 +229,8 @@ DialogPortrait = NodePath("Portrait/AnimatedSprite2D")
 playerPath = NodePath("PlayerController")
 startMap = "res://Maps/MVM32/Opening.tscn"
 interface = NodePath("UI")
-musicPlayer = NodePath("AudioStreamPlayer2D")
-musicAnimationPlayer = NodePath("AudioStreamPlayer2D/AnimationPlayer")
+musicPlayer = NodePath("AudioStreamPlus2D")
+musicAnimationPlayer = NodePath("AudioStreamPlus2D/AnimationPlayer")
 endPlayer = NodePath("CanvasLayer/AnimationPlayer")
 
 [node name="Portrait" type="CanvasLayer" parent="." unique_id=289114254]
@@ -274,12 +275,15 @@ theme_override_constants/separation = -8
 z_index = 5
 position = Vector2(144, 224)
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1756133639]
+[node name="AudioStreamPlus2D" type="Node2D" parent="." unique_id=1652676943]
+script = ExtResource("6_esjk2")
 stream = ExtResource("5_tct1y")
+loop = true
+pause_onblur = true
 max_distance = 100000000000.0
-parameters/looping = true
+metadata/_custom_type_script = "uid://bkon7e7mb55cu"
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="AudioStreamPlayer2D" unique_id=308291720]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AudioStreamPlus2D" unique_id=308291720]
 libraries/ = SubResource("AnimationLibrary_ia7of")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1490446290]

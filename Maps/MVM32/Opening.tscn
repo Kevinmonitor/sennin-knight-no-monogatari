@@ -73,5 +73,24 @@ dialogueID = "Opening2"
 position = Vector2(0, -2.5)
 shape = SubResource("RectangleShape2D_yag5o")
 
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=854375120]
+z_index = 10
+offset_left = 96.0
+offset_top = 152.0
+offset_right = 513.0
+offset_bottom = 192.0
+theme_override_font_sizes/normal_font_size = 32
+text = "sailor knight's story"
+horizontal_alignment = 1
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="." unique_id=35007635]
+z_index = 5
+offset_left = 73.0
+offset_top = 186.0
+offset_right = 542.0
+offset_bottom = 226.0
+text = "move with arrow keys / jump & interact with z key"
+horizontal_alignment = 1
+
 [editable path="SingleDialogueScene"]
 [editable path="SingleDialogueScene2"]

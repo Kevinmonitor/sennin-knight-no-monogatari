@@ -7,7 +7,7 @@ class_name MainGame
 @export var startMap: String
 @export var interface: CanvasLayer
 
-@export var musicPlayer: AudioStreamPlayer2D
+@export var musicPlayer: AudioStreamPlus2D
 @export var musicAnimationPlayer: AnimationPlayer
 @export var endPlayer: AnimationPlayer
 
@@ -100,7 +100,8 @@ func endMusic():
 
 func debugHeal():
 	if Input.is_action_pressed("debug"):
-		updateHP(9)
+		#updateHP(9)
+		pass # no debug for you!
 	
 func playerEmotion(animation):
 	DialogPortrait.visible = true
