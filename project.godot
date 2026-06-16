@@ -18,7 +18,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="EPIC MVM32 GAME GUYS"
+config/name="Sailor Knight's Story"
 run/main_scene="res://Global/MainGame.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
